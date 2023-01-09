@@ -1,2 +1,6 @@
-console.log(Date());
-console.log(Date());
+const now = new Date();
+console.log(now.toString());
+
+console.log(now.getFullYear());
+console.log(now.getMonth());
+console.log(now.getDay());
