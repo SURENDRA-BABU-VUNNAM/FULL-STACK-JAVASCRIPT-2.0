@@ -1,0 +1,100 @@
+/* You can not modify anything in the HTML */
+/* You can only modify the CSS file */
+
+*{
+    margin : 0px;
+    padding: 0px;
+    font-family: Poppins;
+}
+
+/* nav bar styling */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+nav div img {
+    height: .1%;
+    display: block;
+}
+
+.grow-list{
+    position: relative;
+    right: 4rem;
+}
+
+.grow-list  ul {
+    display: flex;
+
+}
+
+.grow-list li {
+    margin: 0.5rem;
+    padding: 0.5rem;
+    color:#bebcbc;
+    list-style: none;
+    justify-self: center;
+}
+
+.grow-list li:hover{
+    color: #000000;
+}
+
+/* banner section  */
+.banner-container {
+    display: flex;
+    margin: 5rem 2rem;
+}
+
+.banner-container :first-child{
+    margin-top: 1rem;
+}
+
+
+.banner-container .heading-text {
+    font-size: 3rem;
+    color:#3C2F60;
+}
+.banner-container .heading-text span{
+    color: #5955B3;
+}
+.banner-container .description{
+    margin: 1.2rem 0rem;
+    color:#bebcbc;
+}
+
+.banner-container div > img {
+height: 30rem;
+}
+
+/* buttons */
+
+.nav-button {
+    color: #FFFFFF;
+    background-color: #5955B3;
+    height: 2.7rem;
+    width: 7.5rem;
+    margin: 0rem 5rem 0rem 0rem;
+    border:none;
+    border-radius: 0.5rem;
+}
+
+.nav-button.btn{
+    width: 11rem;
+    margin-left: .5rem;
+}
+
+.nav-button:hover{
+    background-color: #3C2F60;
+}
+
+/* media queries  */
+
+@media (min-width: 75rem ) {
+    body {
+        margin : 2rem 10rem  ;
+    }
+}

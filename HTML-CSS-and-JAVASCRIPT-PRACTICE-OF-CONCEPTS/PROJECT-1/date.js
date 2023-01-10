@@ -13,3 +13,7 @@
 // const d = new Date();
 // console.log(d.getDate());
 
+// math and its methods
+
+const mat = Math.PI
+console.log(mat)
