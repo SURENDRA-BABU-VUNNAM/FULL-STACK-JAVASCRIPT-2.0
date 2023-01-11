@@ -50,10 +50,17 @@ nav .line {
     padding: 0.5rem;
 }
 
-.grow-list + div{
-    /* position: relative;  
-    left: 10rem; */
+.grow-list > ul li:first-child::after{
+    content: "⌄";
+    position: relative;
+    bottom: 0.3rem;
+    left: 0.3rem;
 }
+
+/* .grow-list + div{
+    position: relative;  
+    left: 10rem;
+} */
 
 /* all the buttons are at bottom above media queries */
 
@@ -63,42 +70,27 @@ nav .line {
 /* hero section */
 
 section > .hero{
-    background-image: url(./assets/bg.png) ;
-    background-repeat: no-repeat;
-    background-size: contain;
-    padding: 12rem;
-
-}
-
-
-section .hero::before{
-    /* content: " ";
     background-image: url(./assets/bg.png);
-    background-repeat: no-repeat;
+    background-position: right;
+    background-repeat: repeat;
     background-size: contain;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    z-index: -1;
-    height: 100%;
-    width: 100%; */
-}
-
-section > .hero{
+    height: 88vh;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    text-align: center;
-
+    color: #ffffff;
 }
+
+
+
 
 section  h1{
     width: 34rem;
-    /* margin: 1.5rem 0rem 1rem 0rem ; */
+    margin: 10rem 0rem 0rem 0rem ;
 }
 
 section  h1.hero-heading{
+    text-align: center;
     font-size: 3.2rem;
 }
 
@@ -137,8 +129,8 @@ button{
 /* media queries */
 
 @media (min-width: 1200px) {
-    body{
-        margin: 2rem 10rem 0rem 10rem;
+    nav{
+        margin: 0rem 10rem 0rem 10rem;
     }
 }
 
