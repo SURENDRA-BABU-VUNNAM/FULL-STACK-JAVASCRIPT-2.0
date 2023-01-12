@@ -54,7 +54,7 @@ nav .line {
     content: "⌄";
     position: relative;
     bottom: 0.3rem;
-    left: 0.3rem;
+    left:0.3rem;
 }
 
 /* .grow-list + div{

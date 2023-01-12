@@ -15,5 +15,10 @@
 
 // math and its methods
 
-const mat = Math.PI
-console.log(mat)
+// const mat = Math.PI;
+// console.log(mat);
+
+// const el = Math.E
+// console.log(el)
+
+
