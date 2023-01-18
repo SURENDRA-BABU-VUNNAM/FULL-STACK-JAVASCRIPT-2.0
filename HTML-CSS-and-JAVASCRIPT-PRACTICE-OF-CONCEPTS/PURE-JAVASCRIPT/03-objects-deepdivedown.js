@@ -129,7 +129,8 @@
 // Object.setPrototypeOf(TSAssistant, User)
 
 
-let my_name ="vunnam        "
+
+let myName ="vunnam        "
 
 String.prototype.trueLength = function (){
     console.log(`the actual length is ${this.length}`);
