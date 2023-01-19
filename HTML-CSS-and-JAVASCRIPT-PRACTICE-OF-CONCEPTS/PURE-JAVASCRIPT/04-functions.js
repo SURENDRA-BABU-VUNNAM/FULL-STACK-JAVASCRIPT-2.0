@@ -46,14 +46,15 @@
 
 // console.log(factorial(4));
 
-const a = [1,2,3,4,5]
-
-function map(f, a) {
-  const result = new Array(a.length);
-  for (let i = 0; i < a.length; i++) {
-    result[i] = f(a[i]);
+function outside(x) {
+  function inside(y) {
+    return x + y;
   }
-  return result;
+  return inside;
 }
+const fnInside = outside(3); // Think of it like: give me a function that adds 3 to whatever you give it
+const result = fnInside(5); // returns 8
+const result1 = outside(3)(5); // returns 8
 
-console.log(map(a));
+console.log(fnInside); 
+console.log(result1);

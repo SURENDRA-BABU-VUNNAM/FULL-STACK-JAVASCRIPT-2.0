@@ -130,9 +130,20 @@
 
 
 
-let myName ="vunnam        "
+// let myName ="vunnam        "
 
-String.prototype.trueLength = function (){
-    console.log(`the actual length is ${this.length}`);
-    console.log(`the true length is ${this.trim().length}` );
-}
+// String.prototype.trueLength = function (){
+//     console.log(`the actual length is ${this.length}`);
+//     console.log(`the true length is ${this.trim().length}` );
+// }
+
+const object1 = {};
+
+Object.defineProperties(object1, {hey :{
+    value :42,
+    writable: true,},
+    bae:{ value : 45}
+})
+
+console.log(object1.property1);
+console.log(object1.property2);
