@@ -45,7 +45,7 @@ nav .grow-list > .list > .list-item:hover{
 .left-side {
     position: relative;
     width: 33rem;
-    margin-top :2rem;
+    margin-top :5rem;
 }
 
 .left-side .heading-text > h1{
@@ -55,6 +55,8 @@ nav .grow-list > .list > .list-item:hover{
 .left-side .paragraph > p {
     font-size: 0.9rem;
     font-weight: 300;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 
 .left-side .bottom-angle{
@@ -65,7 +67,7 @@ nav .grow-list > .list > .list-item:hover{
 .left-side .mouse{
     position: absolute;
     right: -4rem;
-    bottom: 2rem;
+    bottom: 0rem;
     margin-bottom: 0.2rem;
 
 }
@@ -85,6 +87,8 @@ nav .grow-list > .list > .list-item:hover{
 .right-side {
     position: relative;
     left: 9.5rem;
+    top:2rem;
+    height: 10rem;
 }
 
 .right-side > .green-box{
