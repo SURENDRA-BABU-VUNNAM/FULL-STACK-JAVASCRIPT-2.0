@@ -55,6 +55,7 @@ nav .grow-list > .list > .list-item:hover{
 .left-side .paragraph > p {
     font-size: 0.9rem;
     font-weight: 300;
+    margin: 1rem 0rem;
 }
 
 .left-side .bottom-angle{
