@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin: 2rem 10rem;
+    background-color: #2B2923;
+    color: #ffffff;
+    font-family: poppins;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+nav > .grow-list > .list{
+    display: flex;
+    position: relative;
+    left: 12rem;
+}
+
+.grow-list > .list > li {
+    list-style: none;
+    margin: 0 1rem;
+}
+
+.get-started{
+    position: absolute;
+    right: 12rem;
+}
+
+
+.get-started button{
+    height: 2rem;
+    width: 8rem;
+    background-color: #2B2923;
+    color: #9C8C35;
+    border-radius: 0.5rem;
+    border-top:  0.2px solid #9C8C35;
+    border-left: 0.5px solid #9C8C35;
+    border-right:0.3px solid #9C8C35;
+    border-bottom: 1px solid #9C8C35;
+}
+
+
+.banner-text{
+    display: flex;
+    margin: 2rem 0rem;
+
+}
+
+.banner-text .banner-heading {
+ /* position: relative; */
+ width: 75rem;
+}
+
+.banner-text h1 {
+    font-size: 4rem;
+
+}
+
+.banner-text .banner-para {
+    margin-top: 1rem;
+}
+
+.banner-text p{
+    padding: 2rem;
+}
+
+.banner > .banner-image > img {
+    width: 64.4rem;
+}
+
