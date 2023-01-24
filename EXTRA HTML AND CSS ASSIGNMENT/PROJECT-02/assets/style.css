@@ -1,0 +1,499 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: poppins;
+}
+
+body{
+    background-color: #111010;
+    color: #ffffff;
+}
+
+/* navbar */
+
+nav {
+    display: flex;
+    align-items: center;
+    margin: 2rem 10rem;
+    justify-content: space-between;
+}
+
+nav .grow-list > ul {
+    display: flex;
+}
+
+li {
+    list-style: none;
+}
+
+nav .grow-list > ul > li{
+
+    margin: 0 .8rem;
+    font-size: 1.2rem;
+}
+
+.blue  {
+    background-color: #0C8BFD;
+    color: #ffffff;
+    border: none;
+}
+
+.black {
+    background-color: transparent;
+    color: #888787;
+}
+
+.login-button > button{
+    height: 2.5rem;
+    width: 10rem;
+    font-size: 1.1rem;
+    border-radius: 2rem;
+    margin-right: 2rem;
+} 
+
+/* intro  */
+
+.intro {
+    margin: 2rem 10rem;
+    display: flex;
+}
+
+.intro-text .intro-header{
+    width: 35rem;
+    font-size: 3.5rem;
+}
+
+.intro-header span{
+    color: #0C8BFD;
+}
+
+.intro .intro-para {
+    width: 33rem;
+    font-size: 1.2rem;
+    margin: 1.5rem 0rem;
+    color: #929191;
+}
+
+.left-buttons > .blue {
+    height: 2.5rem;
+    width: 10rem;
+    font-size: 1rem;
+    border-radius: 2rem;
+    margin-right: 2rem;
+}
+
+.left-buttons > .black {
+    height: 2.5rem;
+    width: 10rem;
+    font-size: 1rem;
+    border-radius: 2rem;
+    margin-right: 2rem;
+    border:  2px solid #888787;
+}
+
+.right  img {
+    height: 30rem;
+}
+
+/* logo section */
+
+.logo-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #1D1C1C;
+    height: 10rem;
+}
+
+/* services */
+
+.services{
+    background-color: #ffffff;
+    color: #000000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.service-text , .service-cards {
+    margin: 0rem 10rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.service-text .service-header{
+    margin: 2rem 0rem;
+    font-size: 3rem;
+
+}
+
+.service-text .service-para{
+    font-size: 1.5rem;
+    text-align: center;
+    width: 30rem;
+    color: #888787;
+}
+
+.service-cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap : 5rem;
+    margin : 5rem 0rem
+}
+
+.card {
+    text-align: center;
+    padding: 1rem;
+    border: 2px solid #8B8A76;
+    width: 16rem;
+    border-radius: 2rem;
+}
+
+.card > h3 {
+    margin: 1rem 0rem; 
+}
+
+.card > p{
+    margin-bottom: 1rem;
+    color: #888787;
+}
+
+.service-cards > :hover {
+    background-color: #000000;
+    color: #ffffff;
+    transition: all 1s ease-in-out;
+    position: relative;
+    transform:  translateY(-3.125rem);
+}
+
+/* services */
+
+.features {
+    background-color: #ffffff;
+    padding-bottom: 5rem;
+    color: #000000;
+}
+
+.features-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10rem;
+    margin: 0rem 10rem;
+    padding: 5rem 0rem;
+    font-size: 2rem;
+}
+
+.features-card {
+    margin: 0rem 10rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+.card-1 p {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 3rem;
+    width: 25rem;
+    margin: 1.5rem 0rem;
+    padding: 1rem;
+    border: 2px solid #929191;
+    border-radius: 3rem;
+}
+
+.card-1 .text {
+    font-size: 1.1rem;
+    margin-left: 1rem;
+}
+
+.minus {
+    display: none;
+}
+
+.card-1 :hover {
+    background-color: #0C8BFD;
+    color: #ffffff;
+}
+
+.card-1 :hover > .minus{
+    display: inline;
+}
+
+.card-1 :hover > .add{
+    display: none;
+}
+
+.card-2{
+    background-color: #111010;
+    color: #ffffff;
+    border-radius: 3rem;
+}
+
+.card-2 P {
+    width: 25rem;
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    margin: 2rem 2rem;
+    background-color: #292828;
+    border-radius: 2rem;
+}
+
+p > .dot {
+    height: 1rem;
+    width: 1rem;
+    border-radius: 1rem;
+    background-color: #D9D9D9;
+    margin: 0rem 1rem;
+}
+
+.card-2 :hover > .dot {
+    background-color: #000000;
+}
+
+.card-2 :hover {
+    background-color: #FFFFFF;
+    color: #757474;
+}
+
+/* payments */
+
+.payments{
+    margin: 2rem 10rem;
+}
+
+.payments-text {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    margin-top: 5rem;
+}
+
+.payments-text h1{
+    width: 40rem;
+    font-size: 3rem;
+    text-align: center;
+}
+
+.payments-text .arrow {
+    margin: 5rem 5rem; 
+}
+
+.payments-cards {
+    display:flex;
+    gap: 1rem;
+    justify-content: space-between;
+}
+
+.p-card {
+    background-color: white;
+    color: #000000;
+    padding: 2rem;
+    width: 20rem;
+    border-radius: 2rem;
+}
+.p-card h1{
+    font-size: 3rem;
+    margin: 1rem 0rem;
+}
+
+.p-card > h2{
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+hr{
+    margin: 1rem 0rem;
+}
+
+.p-card > p {
+    display: flex;
+    align-items: flex-start;
+}
+
+.p-card > .p-list > :nth-child(3){
+    margin-top: 0.2rem;
+}
+
+.payments-cards :first-child hr {
+    margin-top: 2.4rem;
+}
+
+.p-card > p > span > img {
+    margin: 0.5rem;
+} 
+.p-card > h2 > span{
+    font-size: 1.5rem;
+    color: #888787;
+}
+
+.white {
+    display: none;
+}
+
+.p-card > :last-child{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem 0rem;
+}
+.payments-cards button {
+    height: 3rem;
+    width: 15rem;
+    font-size: 1.2rem;
+    border-radius: 3rem;
+}
+
+.payments-cards :hover{
+    background-color:  #0C8BFD;
+    color: #FFFFFF ;
+}
+
+.payments-cards :hover  .white{
+    display: inline;
+}
+
+.payments-cards :hover  .blue-tick{
+    display: none;
+}
+
+.payments-cards  :hover button{
+    background-color: #FFFFFF;
+    color: #0C8BFD;
+}
+
+/* reviews */
+
+.review{
+    background-color: #FFFFFF;
+    color: #000000;
+
+    padding-bottom: 5rem;
+}
+
+
+.review-text{
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem 10rem;
+    padding-top: 3rem;
+}
+
+.review-text .review-header{
+    width: 30rem;
+    font-size: 3rem;
+}
+
+.review-text .review-para {
+    width: 30rem;
+    margin-top: 3rem;
+}
+
+.review-card {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    margin: 2rem 10rem;
+    gap: 2rem;
+    overflow-x: scroll;
+    padding-bottom: 5rem;
+}
+
+.r-card{
+    background-color: #FFFFFF;
+    color: #000000;
+    width: 30rem;
+    padding: 2rem;
+    border: 2px solid black;
+    border-radius: 2rem;
+}
+
+.r-card h4 {
+    padding: 1rem 0rem;
+}
+.r-card p{
+    padding: 0.5rem 0rem;
+}
+
+.r-card .star img{
+    padding-top: 1rem;
+}
+
+.r-card:hover{
+    background-color: #000000;
+    color: #FFFFFF;
+}
+
+
+*::-webkit-scrollbar {
+    width: 0.2rem;
+  }
+
+*::-webkit-scrollbar-thumb {
+    background-color: #0C8BFD;
+    border-radius: 10px;
+    border: 3px solid #ffffff;
+    width: 0.2rem;
+  }
+
+
+.sign-up{
+    margin: 2rem 10rem;
+}
+
+.sign-up-text{
+    font-size: 3rem;
+    text-align: center;
+}
+
+.input {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 2rem;
+    background-color: #292828;
+    height: 5rem;
+    border-radius: 5rem;
+}
+
+input{
+    background-color: #3E3D3D;
+    color: #D9D9D9;
+    border: none;
+    height: 3rem;
+    width: 15rem;
+    border-radius: 3rem;
+    text-align: center;
+}
+
+.input button{
+    height: 3rem;
+    width: 8rem;
+    border-radius: 3rem;
+}
+
+ hr {
+    margin: 2rem 10rem;
+}
+
+
+
+.ls {
+    display: flex;
+    justify-content: space-around;
+    margin: 2rem 10rem;
+}
+
+
+footer li{
+    margin: 0.75rem 0rem;
+}
+
+footer .logo{
+    margin: 2rem 14rem;
+}
+
+
+
+
