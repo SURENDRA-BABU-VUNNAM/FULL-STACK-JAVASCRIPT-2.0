@@ -1,0 +1,313 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: poppins;
+}
+
+li{
+    list-style: none;
+}
+
+body{
+    background-color: #E6EAEC;
+}
+
+button{
+    background-color: #6663E9;
+    color: #CED0D1;
+    border: none;
+}
+
+/* navigaiton bar */
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 2rem 10rem;
+}
+
+.logo > img {
+    height: 3.25rem;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul li  {
+    margin: 0rem 1rem;
+    color: #CED0D1;
+    font-size: 1.3rem;
+}
+
+nav::before {
+    background: url(./Photos/mainBackground.png) no-repeat center center/cover;
+    content: " ";
+    position: absolute;
+    top: 0rem;
+    height: 45rem;
+    width: 100%;
+    z-index: -1;
+}
+
+nav hr {
+    margin: 2rem 10rem;
+}
+
+/* intro */
+
+.intro{
+    margin: 5rem 15rem;
+    color: #CED0D1;
+}
+
+.intro-header{
+    width: 35rem;
+    font-size: 3.5rem;
+}
+
+.intro-para{
+    width: 25rem;
+}
+
+.intro button{
+    height: 4rem;
+    width: 15rem;
+    margin: 2rem 0rem;
+    border-radius: 4rem;
+    font-size: 1.2rem;
+}
+
+.logo-section {
+    margin: 2rem 10rem;
+}
+
+.logo-section > div{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #ffffff;
+    align-items: center;
+    height: 8rem;
+    border-radius: 2rem;
+}
+
+
+/* estate */
+
+.estate{
+    margin: 2rem 10rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.estate h1{
+    font-size: 3.5rem;
+    width: 30rem;
+    text-align: center;
+    margin: 3rem 0rem;
+}
+
+.estate-cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 4rem 0rem;
+}
+
+.cards{
+    width: 20rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 8rem;
+}
+.cards img {
+    height: 17rem;
+    width: 17rem;
+    border-radius: 1rem;
+}
+
+
+
+.card-description{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+    background-color: #ffffff;
+    width: 12rem;
+    border-radius: 1rem;
+    position: relative;
+    bottom: 2rem;
+    padding: 0.7rem;
+}
+
+.card-description p{
+    color: #6663E9;
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+
+.card-description button {
+    height: 2rem;
+    width: 5rem;
+    border-radius: 1rem;
+}
+
+.cards.up{
+    position: relative;
+    bottom: 3rem;
+}
+.cards.down{
+    position: relative;
+    top: 3rem;
+}
+
+/* modern */
+
+.modern{
+    margin: 5rem 10rem;
+    padding-top: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.m-left , .m-right{
+    height: 25rem;
+}
+
+.m-left > :first-child{
+    height: 20rem;
+}
+
+.m-left > div {
+    position: relative;
+    bottom: 25rem;
+    left: 4rem;
+}
+
+.m-left > div img{
+    height: 20rem;
+    border-radius: 4rem;
+}
+
+.m-right{
+padding: 1rem;
+}
+
+.m-right h2{
+    font-size: 2.5rem;
+    width: 25rem;
+}
+
+.m-right p {
+    width: 27rem;
+    margin: 1rem 0rem;
+}
+
+.big {
+    height: 3.5rem;
+    width: 15rem;
+    font-size: 1.2rem;
+    border-radius: 3rem;
+}
+
+
+.second .m-left > img {
+    width: 30rem;
+}
+
+.second .m-left div > img{
+    height: 20rem;
+    width: 21rem;
+}
+
+/* sign up */
+
+.sign-up{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #6663E9;
+    margin: 2rem 10rem;
+    padding: 3rem;
+    border-radius: 5rem;
+    color: #ffffff;
+}
+
+.sign-up-text {
+    font-size: 3rem;
+    width: 50rem;
+    text-align: center;
+}
+
+.sign-up p {
+    width: 50rem;
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+.input {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 2rem;
+    height: 5rem;
+    width: 60rem;
+    border-radius: 5rem;
+}
+
+input{
+    background-color: #5654D1;
+    color: #ffffff;
+    border: none;
+    height: 3rem;
+    width: 30rem;
+    border-radius: 3rem;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.input button{
+    height: 3rem;
+    border-radius: 3rem;
+    background-color: #ffffff;
+    color: #6663E9;
+    width: 10rem;
+    font-size: 1.15rem;
+}
+
+/* footer */
+
+footer{
+    margin: 2rem 10rem;
+}
+
+.footer {
+    display: flex;
+    padding-left: 10rem;
+    padding: 4rem 5rem;
+}
+
+.footer div {
+    width: 15rem;
+} 
+
+.footer div p {
+    margin: 1rem 0rem;
+}
+
+.footer div img {
+    height: 3rem;
+}
+
+ul {
+    margin:  0rem 4rem;
+}
+.footer li {
+    margin-top: 1rem;
+}
+
