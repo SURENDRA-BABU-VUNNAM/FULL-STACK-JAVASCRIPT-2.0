@@ -1,0 +1,352 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: poppins;
+}
+
+li{
+    list-style: none;
+}
+
+.ltbg{
+    background-color: #FBFDFF;
+    color: #722ED1;
+}
+
+.bg-dark {
+    background-color: #722ED1;
+    color: #FFFFFF;
+    border: none;
+}
+
+p{
+    color: #767B84;
+}
+
+.highlight{
+    color: #722ED1;
+    background-color: #F7F1FF;
+}
+
+/* navbar */
+
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 2rem 10rem;
+}
+
+.logo > img {
+    height: 2rem;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+nav ul li  {
+    margin: 0rem 1rem;
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+nav button{
+    height: 3rem;
+    width: 13rem;
+    font-size: 1.1rem;
+    font-weight: 400;
+    border-radius: 3rem;
+    border: 2px solid #722ED1;
+}
+
+
+/* intro */
+
+.intro {
+    margin: 2rem 10rem;
+    display: flex;
+    justify-content: space-between;
+    padding: 5rem 0rem;
+}
+
+.intro .highlight {
+    display: flex;
+    justify-content: space-around;
+    width: 20rem;
+    padding: 0.7rem;
+    border-radius: 2rem;
+    font-size: 1.3rem;
+}
+
+.intro .highlight > span {
+   
+}
+
+.intro .highlight :last-child {
+    text-decoration: underline;
+}
+
+.intro h1{
+    width: 36rem;
+    font-size: 3.5rem;
+}
+
+.intro-left > :nth-child(3){
+    font-weight: 500;
+    margin: 2rem 0rem;
+}
+
+
+.intro-left > :nth-child(4){
+    width: 10rem;
+    height: 3rem;
+    font-size: 1.1rem;
+    padding: 0.7rem;
+    border-radius: 3rem;
+    margin-right: 2rem;
+}
+
+.intro-left .ltbg {
+    background-color: #FFFFFF;
+    border: none;
+    width: 10rem;
+    height: 3rem;
+    font-size: 1.1rem;
+    padding: 0.7rem;
+    border-radius: 3rem;
+}
+
+.container > :nth-child(2){
+    background-image: linear-gradient(to right top, #bfd9f4, #d4e1f7, #e5eafa, #f4f4fc, #ffffff);
+    clip-path: polygon(0 0, 100% 0%, 100% 70%, 0% 100%);
+}
+
+.quibly {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center ;
+    margin: 2rem 10rem;
+}
+
+.quibly-text{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.quibly-text h1{
+    font-size: 2.1rem;
+    padding: 2rem 0rem;
+}
+
+.quibly-text > :last-child {
+    width: 50rem;
+    font-size: 1.2rem;
+    padding: 2rem 0rem;
+    text-align: center;
+}
+
+.quibly-text .highlight{
+    display: flex;
+    justify-content: space-around;
+    width: 10rem;
+    padding: 0.7rem;
+    border-radius: 2rem;
+    font-size: 1.3rem;
+}
+
+.quibly .quibly-cards {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    padding: 2rem 0rem;
+    gap: 1rem;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 21rem;
+}
+
+.card p {
+    font-size: 1.1rem;
+}
+
+
+/* teams */
+
+.teams{
+    display: flex;
+    margin: 2rem 10rem;
+    padding: 5rem 0rem;
+    gap : 5rem;
+}
+
+.teams .teams-text .quibly-text > :first-child {
+    width: 15rem;
+}
+
+.teams .teams-text .quibly-text >  :last-child {
+    width: 35rem;
+    text-align: left;
+}
+
+/* teams-2 */
+
+.teams-2 {
+    flex-direction: row-reverse;
+    gap: 0;
+}
+
+.teams-2  > img{
+    width: 30rem;
+}
+
+.teams-2 .teams-text .quibly-text >  :last-child{
+    width: 34rem;
+}
+
+.teams-2 .teams-text .quibly-text > :first-child {
+    width: 18rem;
+}
+
+/* SullivanAnalytics */
+
+.SullivanAnalytics {
+    padding: 5rem 0rem;
+    margin: 2rem 10rem;
+    text-align: center;
+}
+
+.SullivanAnalytics h1{
+    margin: 3rem 0rem;
+}
+
+.SullivanAnalytics p{
+    color: #000000;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.SullivanAnalytics .p :last-child{
+    margin-bottom: 1rem;
+}
+
+
+.logo-section img {
+    margin: 3rem;
+}
+
+.container > :nth-child(6){
+    background-image: linear-gradient(to right, #e5eff9, #e5eff9, #e6eff9, #e6eef8, #e6eef8, #e7edf8, #e8edf8, #e9ecf8, #ebebf7, #ecebf7, #eeeaf6, #efeaf5);
+    clip-path: polygon(0% 20%, 100% 0%, 100% 75%, 0% 100%);
+}
+
+/* sing-up */
+
+.signup {
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+}
+
+.signup-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 2rem ;
+}
+
+.signup-text h1 {
+    font-size: 2.5rem;
+}
+
+.signup-text p {
+    margin: 2rem 0rem;
+}
+
+.signup .logo-section > div{
+    display: grid;
+    grid-template-columns: 1fr 1fr
+}
+
+.signup-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border-left: 2rem solid #F7EFFE;
+    border-right: 2rem solid #F7EFFE;
+    border-bottom: 2rem solid #F7EFFE;
+    margin: 2rem;
+}
+
+.signup-form h1{
+    font-size: 3rem;
+}
+
+
+.signup-form  :nth-child(2){
+    height: 3rem;
+    width: 25.2rem;
+    margin: 1rem 0rem;
+    font-size: 1.2rem;
+}
+
+.signup-form input {
+    height: 3rem;
+    width: 25rem;
+    margin: 1rem 0rem;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+/* footer */
+
+.footer {
+    display: flex;
+    margin: 2rem 2rem;
+}
+
+.footer > :first-child {
+    width: 20rem;
+    margin: 1rem 1rem;
+}
+
+.footer > :first-child img {
+    margin: 1rem 1rem;
+}
+
+.footer ul {
+    margin:  0rem 1rem;
+}
+
+.footer li {
+    color: #767B84;
+}
+
+.email input {
+    height: 3rem;
+    width: 15rem;
+    border: none;
+    box-shadow: 8px 8px 8px 0px rgba(0,0,0,0.75);
+}
+
+.email button{
+    background-color: transparent;
+    border: none;
+    text-align: center;
+}
+
+.email button img{
+    height: 1.5rem;
+    position: relative;
+    right: 2rem;
+    top: 0.5rem;
+}
