@@ -1,4 +1,4 @@
-const str = "surendra   ";
+const str = "  surendra    ";
 console.log(str.length);
 const str1 = str.trim();
 
