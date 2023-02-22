@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Document</title>
+<!-- 
+    <style>
+
+
+        .open{
+            position: absolute;
+            height: 20px;
+            width: 20px;
+            background-color: aquamarine;
+        }
+    </style> -->
+
+</head>
+<body>
+    <!-- <script src="./script.js"></script> -->
+    <div class="root">not rendering</div>
+
+	<script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+	<script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+	<script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+
+    <script type="text/babel">
+        const element1 = document.querySelector(".root");
+        const rootElement = <h1>surendra</h1>;
+
+        const Header = <header>
+            <h1>surendra</h1>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat consequuntur optio aliquam eos libero eveniet? Asperiores consectetur ipsa quis nobis.</p>
+            </header>
+
+        const Main = <>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio minus facilis optio temporibus, amet at reprehenderit voluptates debitis dolor tempore fugiat molestiae nostrum consectetur dolorem excepturi soluta quas? Fugit, velit.</p>
+        </>
+
+        const Footer = <footer>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, sed!
+            </footer>
+
+            const App = <>
+            {Header}
+            {Main}
+            {Main}
+            {Main}
+            {Main}
+            {Footer}
+            </>
+        ReactDOM.render(App,element1) 
+    </script>
+
+
+
+</body>
+
+</html>
