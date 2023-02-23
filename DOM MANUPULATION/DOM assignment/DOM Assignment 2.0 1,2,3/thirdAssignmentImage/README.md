@@ -1,3 +1,8 @@
+# taskoutput 
+
+![](./task1Output.png)
+
+```
 let form = document.querySelectorAll("form");
 form= Array.from(form)
 
@@ -20,16 +25,6 @@ form[1].addEventListener("submit",(event)=>{
     textArea[0].value = textArea[1].value
 });
 
-// form[0].addEventListener("reset",(event)=>{
-//     event.preventDefault()
-//     for (let index = 0; index < input.length; index++) {
-//         input[index].value = ""
-//     }
-//     for (let index = 0; index < input.length; index++) {
-//         textArea[index].value = ""
-//     }
-// })
-
 
 form[0].addEventListener("reset",(event)=>{
     event.preventDefault()
@@ -44,3 +39,4 @@ form[0].addEventListener("reset",(event)=>{
 })
 
 
+```
