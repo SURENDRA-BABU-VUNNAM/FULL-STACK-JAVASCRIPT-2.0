@@ -30,6 +30,6 @@
 
 [link](https://github.com/SURENDRA-BABU-VUNNAM/FULL-STACK-JAVASCRIPT-2.0/tree/main/DOM%20MANUPULATION/DOM%20assignment/DOM%20P8)
 
-# ninth Assignment
+# Ninth Assignment
 
 [link](https://github.com/SURENDRA-BABU-VUNNAM/FULL-STACK-JAVASCRIPT-2.0/tree/main/DOM%20MANUPULATION/DOM%20assignment/DOM%20P9)
