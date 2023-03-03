@@ -6,17 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>Document</title>
-<!-- 
+
     <style>
 
 
         .open{
-            position: absolute;
-            height: 20px;
-            width: 20px;
+            height: 120px;
+            width: 500px;
             background-color: aquamarine;
         }
-    </style> -->
+    </style>
 
 </head>
 <body>
@@ -30,17 +29,17 @@
     <script type="text/babel">
         const element1 = document.querySelector(".root");
         const rootElement = <h1>surendra</h1>;
-
-        const Header = <header>
+        let Css = {border:"2px solid black",color:"yellow"}
+        const Header = <header style={{border:"2px solid black",color:"red"}}>
             <h1>surendra</h1>
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat consequuntur optio aliquam eos libero eveniet? Asperiores consectetur ipsa quis nobis.</p>
             </header>
 
-        const Main = <>
+        const Main = <div style={Css}>
         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio minus facilis optio temporibus, amet at reprehenderit voluptates debitis dolor tempore fugiat molestiae nostrum consectetur dolorem excepturi soluta quas? Fugit, velit.</p>
-        </>
+        </div>
 
-        const Footer = <footer>
+        const Footer = <footer style={Css} className={"open"}>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, sed!
             </footer>
 
