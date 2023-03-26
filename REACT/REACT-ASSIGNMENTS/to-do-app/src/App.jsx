@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import './App.css'
-import  {AddToDo,removeTodo,editTodo}  from './features/features'
+import  {AddToDo,removeTodo}  from './features/features'
 import {useSelector ,useDispatch} from 'react-redux'
 
 
@@ -16,9 +16,7 @@ function App() {
       <div>
         {todos.map((todo) => 
           (<h1 key={todo.id} >{todo.text} 
-          <button onClick={()=>dispatch(removeTodo(todo.id))}>del</button>
-          <button onClick={()=>dispatch(editTodo(todo.id))}>edit</button>
-           </h1>)
+          <button onClick={()=>dispatch(removeTodo(todo.id))}>del</button> </h1>)
 
         )}
       </div>
